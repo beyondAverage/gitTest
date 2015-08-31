@@ -21,8 +21,15 @@
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 50, 300, 50)];
     label.text = @"你是小灰灰";
     label.backgroundColor = [UIColor yellowColor];
+    label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:label];
     
+    
+    UILabel *secondLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 120, 300, 50)];
+    secondLabel.text = @"第二个label";
+    secondLabel.backgroundColor = [UIColor cyanColor];
+    secondLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:secondLabel];
 }
 
 - (void)didReceiveMemoryWarning {
