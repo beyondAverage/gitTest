@@ -48,6 +48,12 @@
     fiveLabel.backgroundColor = [UIColor brownColor];
     fiveLabel.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:fiveLabel];
+    
+    UILabel *sixLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 470, 300, 50)];
+    sixLabel.text = @"第六个label";
+    sixLabel.backgroundColor = [UIColor brownColor];
+    sixLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:sixLabel];
 }
 
 - (void)didReceiveMemoryWarning {
