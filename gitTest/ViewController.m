@@ -21,8 +21,27 @@
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 50, 300, 50)];
     label.text = @"你是小灰灰";
     label.backgroundColor = [UIColor yellowColor];
+    label.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:label];
     
+    
+    UILabel *secondLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 120, 300, 50)];
+    secondLabel.text = @"第二个label";
+    secondLabel.backgroundColor = [UIColor cyanColor];
+    secondLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:secondLabel];
+    
+    UILabel *thirdLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 200, 300, 50)];
+    thirdLabel.text = @"第三个label";
+    thirdLabel.backgroundColor = [UIColor redColor];
+    thirdLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:thirdLabel];
+    
+    UILabel *fourLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 300, 300, 50)];
+    fourLabel.text = @"第四个label";
+    fourLabel.backgroundColor = [UIColor greenColor];
+    fourLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:fourLabel];
 }
 
 - (void)didReceiveMemoryWarning {
