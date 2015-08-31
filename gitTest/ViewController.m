@@ -36,6 +36,12 @@
     thirdLabel.backgroundColor = [UIColor redColor];
     thirdLabel.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:thirdLabel];
+    
+    UILabel *fourLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 300, 300, 50)];
+    fourLabel.text = @"第四个label";
+    fourLabel.backgroundColor = [UIColor greenColor];
+    fourLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:fourLabel];
 }
 
 - (void)didReceiveMemoryWarning {
