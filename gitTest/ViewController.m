@@ -30,6 +30,12 @@
     secondLabel.backgroundColor = [UIColor cyanColor];
     secondLabel.textAlignment = NSTextAlignmentCenter;
     [self.view addSubview:secondLabel];
+    
+    UILabel *thirdLabel = [[UILabel alloc] initWithFrame:CGRectMake(20, 200, 300, 50)];
+    thirdLabel.text = @"第三个label";
+    thirdLabel.backgroundColor = [UIColor redColor];
+    thirdLabel.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:thirdLabel];
 }
 
 - (void)didReceiveMemoryWarning {
